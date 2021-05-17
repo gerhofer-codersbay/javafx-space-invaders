@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+
+<GridPane onKeyPressed="#moveSpaceship" focusTraversable="true" stylesheets="@styles.css" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="400.0">
+         <children>
+            <TilePane fx:id="gameField" layoutX="50.0" layoutY="50.0" prefColumns="15" prefHeight="600.0" prefRows="30" prefTileHeight="20.0" prefTileWidth="20.0" prefWidth="300.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
